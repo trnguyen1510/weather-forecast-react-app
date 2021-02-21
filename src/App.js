@@ -7,7 +7,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         
-        <Weather />
+        <Weather defaultCity="San Diego" />
 
       <footer> This project was coded by Tram Nguyen and is {" "}
           <a href="https://github.com/trnguyen1510/weather-forecast-react-app" target="_blank">open-source on Github</a>
