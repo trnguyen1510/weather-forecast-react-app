@@ -1,0 +1,101 @@
+.Weather {
+    font-family: 'Acme', sans-serif;
+    border: 1px solid #dadde1;
+    background-image: url("./assets/background.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 25px;
+    display: block;
+    min-height: 100%;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    }
+
+.Weather h1 {
+    color: #594157;
+    display: block;
+    font-size: 50px;
+    font-weight: 100;
+    height: 28px;
+    line-height: 40px;
+    margin: 20px 0 0 0;
+}
+
+.Weather ul{
+    margin: 15px;
+    padding: 0;
+}
+
+.Weather li {
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 20px;
+    list-style: none;   
+
+}
+
+.Weather .additionMain {
+    color: yellow;
+}
+
+
+.Weather .weatherInfo{
+    background-color:#6e7badcb; 
+    opacity: 75%;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    color: #BEE7E8;
+
+}
+
+.Weather img {
+    height: 64px;
+    margin-right: 10px;
+    display: inline-block;
+    width: 64px;
+}
+
+
+.Weather .unit {
+    color: #594157;
+    font-size: 30px;
+    font-weight: 400;
+    position: relative;
+    top: -20px;
+    line-height: 1;
+
+}
+
+.Weather .temp{
+    color: #594157;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 64px;
+
+}
+
+.Weather .btn {
+    border-radius: 10px;
+    border: 3px solid;
+    background-color: clear;
+    cursor: pointer;
+    padding: 3px;
+
+}
+
+.Weather .btn-outline-primary {
+    border-color: #594157;
+    color:  #594157;
+    font-size: 18px;
+}
+
+.Weather .btn-outline-primary:hover{
+    background:  #594157;
+    color: #BEE7E8;
+}
