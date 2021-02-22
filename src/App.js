@@ -10,7 +10,7 @@ export default function App() {
         <Weather defaultCity="San Diego" />
 
       <footer> This project was coded by Tram Nguyen and is {" "}
-          <a href="https://github.com/trnguyen1510/weather-forecast-react-app" target="_blank">open-source on Github</a>
+          <a href="https://github.com/trnguyen1510/weather-forecast-react-app">open-source on Github</a>
 
 
         </footer>
