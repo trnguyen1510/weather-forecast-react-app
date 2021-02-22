@@ -49,7 +49,7 @@
 
 
 .Weather .weatherInfo{
-    background-color: rgba(255, 255, 255, 0.589); 
+    background-color: rgba(255, 255, 255, 0.2);
     padding: 0px 50px 0 55px;
     margin: 0 auto;
     border-radius: 20px;
@@ -93,6 +93,7 @@
 .Weather .btn-outline-primary:hover{
     background:  #594157;
     color: #BEE7E8;
+    border-color:  #594157;
     box-shadow: 1px 1px 2px #594157, 0 0 25px #726da8, 0 0 5px #a0d2db;
 
 }
