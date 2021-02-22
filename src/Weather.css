@@ -42,6 +42,8 @@
 }
 
 .Weather .additionMain {
+    margin-top: 20px;
+    padding: 10px;
     color: yellow;
 }
 
@@ -54,7 +56,7 @@
     color: #726da8;
 }
 
-.Weather img {
+.Weather canvas {
     height: 64px;
     margin-right: 10px;
     display: inline-block;
@@ -63,18 +65,7 @@
 
 }
 
-
-.Weather .unit {
-    color: #594157;
-    font-size: 30px;
-    font-weight: 400;
-    position: relative;
-    top: -20px;
-    line-height: 1;
-
-}
-
-.Weather .temp{
+.WeatherTemp .temperature{
     color: #594157;
     font-size: 64px;
     font-weight: 400;

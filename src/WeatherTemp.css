@@ -1,0 +1,16 @@
+.WeatherTemp .unit {
+    cursor: pointer;
+    color: #594157;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    top: -20px;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.WeatherTemp .unit:hover {
+    text-decoration: none;
+}
+
+.WeatherTemp a {color:yellow;}

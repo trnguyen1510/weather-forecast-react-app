@@ -1,0 +1,14 @@
+.WeatherForecast {
+    text-align: center;
+    color: #594157;;
+}
+.WeatherForecast canvas {
+    display: block;
+    margin: 10px auto; 
+    
+
+}
+
+.col {
+    margin-top: 40px;
+}
